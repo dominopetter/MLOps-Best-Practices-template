@@ -1,0 +1,90 @@
+[I 2024-11-18 18:05:06.216 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2024-11-18 18:05:07.340 ServerApp] Package jupyter_ai took 1.1232s to import
+[I 2024-11-18 18:05:07.347 ServerApp] Package jupyter_lsp took 0.0069s to import
+[W 2024-11-18 18:05:07.347 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-11-18 18:05:07.348 ServerApp] Package jupyter_server_mathjax took 0.0007s to import
+[I 2024-11-18 18:05:07.352 ServerApp] Package jupyter_server_proxy took 0.0031s to import
+[I 2024-11-18 18:05:07.354 ServerApp] Package jupyter_server_terminals took 0.0023s to import
+[I 2024-11-18 18:05:07.362 ServerApp] Package jupyterlab_git took 0.0078s to import
+[I 2024-11-18 18:05:07.363 ServerApp] Package nbclassic took 0.0003s to import
+[W 2024-11-18 18:05:07.364 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-11-18 18:05:07.364 ServerApp] Package nbdime took 0.0000s to import
+[I 2024-11-18 18:05:07.365 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2024-11-18 18:05:07.365 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-11-18 18:05:07.368 ServerApp] jupyter_ai | extension was successfully linked.
+[I 2024-11-18 18:05:07.368 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-11-18 18:05:07.371 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2024-11-18 18:05:07.371 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[I 2024-11-18 18:05:07.373 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-11-18 18:05:07.377 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-11-18 18:05:07.377 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2024-11-18 18:05:07.380 ServerApp] nbclassic | extension was successfully linked.
+[I 2024-11-18 18:05:07.380 ServerApp] nbdime | extension was successfully linked.
+[I 2024-11-18 18:05:07.380 ServerApp] Writing Jupyter server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2024-11-18 18:05:07.382 ServerApp] notebook_shim | extension was successfully linked.
+[W 2024-11-18 18:05:07.428 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2024-11-18 18:05:07.428 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-11-18 18:05:07.429 AiExtension] Configured provider allowlist: None
+[I 2024-11-18 18:05:07.429 AiExtension] Configured provider blocklist: None
+[I 2024-11-18 18:05:07.429 AiExtension] Configured model allowlist: None
+[I 2024-11-18 18:05:07.429 AiExtension] Configured model blocklist: None
+[I 2024-11-18 18:05:07.429 AiExtension] Configured model parameters: {}
+[I 2024-11-18 18:05:07.440 AiExtension] Registered model provider `ai21`.
+[I 2024-11-18 18:05:07.440 AiExtension] Registered model provider `bedrock`.
+[I 2024-11-18 18:05:07.440 AiExtension] Registered model provider `bedrock-chat`.
+[I 2024-11-18 18:05:07.440 AiExtension] Registered model provider `anthropic`.
+[I 2024-11-18 18:05:07.440 AiExtension] Registered model provider `anthropic-chat`.
+[I 2024-11-18 18:05:07.440 AiExtension] Registered model provider `azure-chat-openai`.
+[I 2024-11-18 18:05:07.440 AiExtension] Registered model provider `cohere`.
+[I 2024-11-18 18:05:07.440 AiExtension] Registered model provider `gpt4all`.
+[I 2024-11-18 18:05:07.440 AiExtension] Registered model provider `huggingface_hub`.
+[I 2024-11-18 18:05:07.440 AiExtension] Registered model provider `openai`.
+[I 2024-11-18 18:05:07.440 AiExtension] Registered model provider `openai-chat`.
+[I 2024-11-18 18:05:07.440 AiExtension] Registered model provider `openai-chat-new`.
+[I 2024-11-18 18:05:07.440 AiExtension] Registered model provider `sagemaker-endpoint`.
+[I 2024-11-18 18:05:07.460 AiExtension] Registered embeddings model provider `bedrock`.
+[I 2024-11-18 18:05:07.460 AiExtension] Registered embeddings model provider `cohere`.
+[I 2024-11-18 18:05:07.460 AiExtension] Registered embeddings model provider `gpt4all`.
+[I 2024-11-18 18:05:07.460 AiExtension] Registered embeddings model provider `huggingface_hub`.
+[I 2024-11-18 18:05:07.460 AiExtension] Registered embeddings model provider `openai`.
+[I 2024-11-18 18:05:07.474 AiExtension] Registered providers.
+[I 2024-11-18 18:05:07.474 AiExtension] Registered jupyter_ai server extension
+[I 2024-11-18 18:05:07.475 AiExtension] Initialized Jupyter AI server extension in 47 ms.
+[I 2024-11-18 18:05:07.476 ServerApp] jupyter_ai | extension was successfully loaded.
+[I 2024-11-18 18:05:07.478 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-11-18 18:05:07.479 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2024-11-18 18:05:07.490 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2024-11-18 18:05:07.491 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-11-18 18:05:07.493 LabApp] JupyterLab extension loaded from /home/ubuntu/.local/lib/python3.9/site-packages/jupyterlab
+[I 2024-11-18 18:05:07.493 LabApp] JupyterLab application directory is /home/ubuntu/.local/share/jupyter/lab
+[I 2024-11-18 18:05:07.493 LabApp] Extension Manager is 'pypi'.
+[I 2024-11-18 18:05:07.496 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-11-18 18:05:07.504 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2024-11-18 18:05:07.506 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-11-18 18:05:07.550 ServerApp] nbdime | extension was successfully loaded.
+[I 2024-11-18 18:05:07.551 ServerApp] Serving notebooks from local directory: /
+[I 2024-11-18 18:05:07.551 ServerApp] Jupyter Server 2.10.0 is running at:
+[I 2024-11-18 18:05:07.551 ServerApp] http://run-673b81ba210a5e5194c9ec71-q8vjb:8888/petter/mlops-best-practices/notebookSession/673b81ba210a5e5194c9ec71/lab/tree/mnt/code
+[I 2024-11-18 18:05:07.551 ServerApp]     http://127.0.0.1:8888/petter/mlops-best-practices/notebookSession/673b81ba210a5e5194c9ec71/lab/tree/mnt/code
+[I 2024-11-18 18:05:07.551 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-11-18 18:05:07.913 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-11-18 18:05:15.871 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-11-18 18:05:15.955 ServerApp] Client connected. ID: 049e3b42a20c43728e6ad868ad89e32c
+[I 2024-11-18 18:05:22.765 ServerApp] New terminal with automatic name: 1
+[W 2024-11-18 18:06:24.358 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/apps
+[W 2024-11-18 18:06:24.361 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/admin
+[W 2024-11-18 18:06:24.362 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/models
+[W 2024-11-18 18:06:24.368 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/documentation
+[W 2024-11-18 18:06:24.382 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/notebooks
+[W 2024-11-18 18:06:24.383 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/readme_images
+[W 2024-11-18 18:06:24.384 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/monitoring
+[W 2024-11-18 18:06:24.386 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/results
+[W 2024-11-18 18:06:24.387 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/visualizations
+[W 2024-11-18 18:06:24.392 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/scripts
+[W 2024-11-18 18:06:24.404 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/app.sh
+[W 2024-11-18 18:06:24.410 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/dominostats.json
+[W 2024-11-18 18:06:24.411 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/EDA_code.ipynb
+[W 2024-11-18 18:06:24.421 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/Readme.md
+[W 2024-11-18 18:06:24.424 ServerApp] /mnt/imported/code/mlops-best-practices-template/Readme.md doesn't exist
+[W 2024-11-18 18:06:57.715 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/code
+[W 2024-11-18 18:07:16.981 ServerApp] delete /mnt/imported/code/mlops-best-practices-template/code
